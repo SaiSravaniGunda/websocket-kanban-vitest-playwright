@@ -1,0 +1,139 @@
+/* frontend/src/components/TaskForm.css */
+.task-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+  }
+  
+  .task-form h2 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #95a5a6;
+  }
+  
+  .close-btn:hover {
+    color: #e74c3c;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+  }
+  
+  .form-group textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .form-row .form-group {
+    flex: 1;
+  }
+  
+  .upload-btn {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #dfe6e9;
+  }
+  
+  .attachment-preview {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border: 1px dashed #ddd;
+  }
+  
+  .attachment-preview img {
+    max-width: 100%;
+    max-height: 60px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .remove-attachment {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0;
+  }
+  
+  .remove-attachment:hover {
+    text-decoration: underline;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-actions button:first-child {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    color: #34495e;
+  }
+  
+  .form-actions button:first-child:hover {
+    background-color: #dfe6e9;
+  }
+  
+  .form-actions button:last-child {
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    color: white;
+  }
+  
+  .form-actions button:last-child:hover {
+    background-color: #2980b9;
+  }
