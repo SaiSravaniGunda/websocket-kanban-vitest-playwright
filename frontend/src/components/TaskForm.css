@@ -137,3 +137,9 @@
   .form-actions button:last-child:hover {
     background-color: #2980b9;
   }
+  .error-message {
+    color: red;
+    margin-top: 8px;
+    font-size: 0.9rem;
+  }
+  
